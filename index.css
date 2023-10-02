@@ -28,6 +28,7 @@ body {
 .right {
   width: 60%;
   margin-left: 10px;
+  height: 100vh;
 }
 
 .img {
