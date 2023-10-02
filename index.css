@@ -5,14 +5,14 @@
 }
 body {
   width: 100vw;
-  height: 100vh;
-  /* border-radius: 100px; */
+  height: auto;
+  border-radius: 100px;
 }
 
 .main {
   /* background-color: orange; */
   display: flex;
-  height: 100vh;
+  height: 100%;
   padding: 18px;
   /* border-radius: 100px; */
 }
@@ -22,13 +22,16 @@ body {
   background-color: #323b4c;
   color: white;
   border-radius: 10px;
-  padding: 20px;
-  height: 100vh;
+  padding: 10px;
+
+  font-size: 14px;
 }
 .right {
   width: 60%;
   margin-left: 10px;
-  height: 100vh;
+  height: auto;
+  /* background-color: orange; */
+  /* border-radius: 19px; */
 }
 
 .img {
